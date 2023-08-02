@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniSupervisorConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isTimelineHidden>true</isTimelineHidden>
+    <masterLabel>SPC-v58.0</masterLabel>
+    <omniSupervisorConfigAction>
+        <actionName>ManageQueues</actionName>
+        <actionTab>QueuesBacklog</actionTab>
+        <displayOrder>0</displayOrder>
+    </omniSupervisorConfigAction>
+    <omniSupervisorConfigAction>
+        <actionName>ChangeSkills</actionName>
+        <actionTab>AllAgents</actionTab>
+        <displayOrder>0</displayOrder>
+    </omniSupervisorConfigAction>
+    <omniSupervisorConfigAction>
+        <actionName>AssignLearning</actionName>
+        <actionTab>AllAgents</actionTab>
+        <displayOrder>1</displayOrder>
+    </omniSupervisorConfigAction>
+    <omniSupervisorConfigAction>
+        <actionName>AWSDashboard</actionName>
+        <actionTab>AssignedWork</actionTab>
+        <displayOrder>0</displayOrder>
+    </omniSupervisorConfigAction>
+    <omniSupervisorConfigProfile>
+        <profile>api user 58</profile>
+    </omniSupervisorConfigProfile>
+    <omniSupervisorConfigQueue>
+        <queue>Lead_Q</queue>
+    </omniSupervisorConfigQueue>
+    <skillVisibility>AllSkills</skillVisibility>
+</OmniSupervisorConfig>
