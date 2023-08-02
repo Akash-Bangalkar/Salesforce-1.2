@@ -6,5 +6,5 @@
     <pushTimeout>20</pushTimeout>
     <routingModel>MOST_AVAILABLE</routingModel>
     <routingPriority>2</routingPriority>
-    <userOverflowAssignee>akash@dev58.zero</userOverflowAssignee>
+    <userOverflowAssignee>akash@dev58.target</userOverflowAssignee>
 </QueueRoutingConfig>
