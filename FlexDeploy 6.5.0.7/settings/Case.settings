@@ -12,9 +12,9 @@
     <caseMergeInLightning>false</caseMergeInLightning>
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
     <defaultCaseFeedLayoutOn>true</defaultCaseFeedLayoutOn>
-    <defaultCaseOwner>akash@dev58.zero</defaultCaseOwner>
+    <defaultCaseOwner>akash@dev58.target</defaultCaseOwner>
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
-    <defaultCaseUser>akash@dev58.zero</defaultCaseUser>
+    <defaultCaseUser>akash@dev58.target</defaultCaseUser>
     <emailToCase>
         <enableE2CAttachmentAsFile>false</enableE2CAttachmentAsFile>
         <enableE2CSourceTracking>true</enableE2CSourceTracking>
