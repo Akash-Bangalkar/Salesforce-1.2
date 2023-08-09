@@ -41,7 +41,8 @@
         <wednesdayStartTime>10:00:00.000Z</wednesdayStartTime>
     </businessHours>
     <holidays>
-        <activityDate>2023-08-04</activityDate>
+        <activityDate>2023-08-15</activityDate>
+        <businessHours>FlexDeploy IND</businessHours>
         <description>India Independance Day - Govt Holiday</description>
         <isRecurring>false</isRecurring>
         <name>Independance Day</name>
