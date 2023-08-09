@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFeedFilter xmlns="http://soap.sforce.com/2006/04/metadata">
+    <criteria>
+        <feedItemType>CallLogPost</feedItemType>
+        <relatedSObjectType>Task</relatedSObjectType>
+    </criteria>
+    <criteria>
+        <feedItemType>MilestoneEvent</feedItemType>
+        <relatedSObjectType>CaseMilestone</relatedSObjectType>
+    </criteria>
+    <description>Escalated Cases</description>
+    <label>FD Filter</label>
+</CustomFeedFilter>
