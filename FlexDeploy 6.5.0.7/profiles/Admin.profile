@@ -110,6 +110,11 @@
       <default>false</default>
       <visible>true</visible>
    </applicationVisibilities>
+   <applicationVisibilities>
+      <application>standard__PreconfiguredLightningServiceConsole</application>
+      <default>false</default>
+      <visible>true</visible>
+   </applicationVisibilities>
    <classAccesses>
       <apexClass>AccountClass</apexClass>
       <enabled>true</enabled>
@@ -140,6 +145,78 @@
    </classAccesses>
    <classAccesses>
       <apexClass>OpportunityNextStepTest</apexClass>
+      <enabled>true</enabled>
+   </classAccesses>
+   <classAccesses>
+      <apexClass>CommunitiesLandingController</apexClass>
+      <enabled>true</enabled>
+   </classAccesses>
+   <classAccesses>
+      <apexClass>CommunitiesLandingControllerTest</apexClass>
+      <enabled>true</enabled>
+   </classAccesses>
+   <classAccesses>
+      <apexClass>CommunitiesLoginController</apexClass>
+      <enabled>true</enabled>
+   </classAccesses>
+   <classAccesses>
+      <apexClass>CommunitiesLoginControllerTest</apexClass>
+      <enabled>true</enabled>
+   </classAccesses>
+   <classAccesses>
+      <apexClass>CommunitiesSelfRegConfirmController</apexClass>
+      <enabled>true</enabled>
+   </classAccesses>
+   <classAccesses>
+      <apexClass>CommunitiesSelfRegConfirmControllerTest</apexClass>
+      <enabled>true</enabled>
+   </classAccesses>
+   <classAccesses>
+      <apexClass>CommunitiesSelfRegController</apexClass>
+      <enabled>true</enabled>
+   </classAccesses>
+   <classAccesses>
+      <apexClass>CommunitiesSelfRegControllerTest</apexClass>
+      <enabled>true</enabled>
+   </classAccesses>
+   <classAccesses>
+      <apexClass>ForgotPasswordController</apexClass>
+      <enabled>true</enabled>
+   </classAccesses>
+   <classAccesses>
+      <apexClass>ForgotPasswordControllerTest</apexClass>
+      <enabled>true</enabled>
+   </classAccesses>
+   <classAccesses>
+      <apexClass>MicrobatchSelfRegController</apexClass>
+      <enabled>true</enabled>
+   </classAccesses>
+   <classAccesses>
+      <apexClass>MicrobatchSelfRegControllerTest</apexClass>
+      <enabled>true</enabled>
+   </classAccesses>
+   <classAccesses>
+      <apexClass>MyProfilePageController</apexClass>
+      <enabled>true</enabled>
+   </classAccesses>
+   <classAccesses>
+      <apexClass>MyProfilePageControllerTest</apexClass>
+      <enabled>true</enabled>
+   </classAccesses>
+   <classAccesses>
+      <apexClass>SiteLoginController</apexClass>
+      <enabled>true</enabled>
+   </classAccesses>
+   <classAccesses>
+      <apexClass>SiteLoginControllerTest</apexClass>
+      <enabled>true</enabled>
+   </classAccesses>
+   <classAccesses>
+      <apexClass>SiteRegisterController</apexClass>
+      <enabled>true</enabled>
+   </classAccesses>
+   <classAccesses>
+      <apexClass>SiteRegisterControllerTest</apexClass>
       <enabled>true</enabled>
    </classAccesses>
    <custom>false</custom>
@@ -3923,6 +4000,36 @@
       <field>Task.IsVisibleInSelfService</field>
       <readable>false</readable>
    </fieldPermissions>
+   <fieldPermissions>
+      <editable>false</editable>
+      <field>Account.IsExcludedFromRealign</field>
+      <readable>false</readable>
+   </fieldPermissions>
+   <fieldPermissions>
+      <editable>true</editable>
+      <field>Campaign.CampaignImageId</field>
+      <readable>true</readable>
+   </fieldPermissions>
+   <fieldPermissions>
+      <editable>false</editable>
+      <field>Event.IsVisibleInSelfService</field>
+      <readable>false</readable>
+   </fieldPermissions>
+   <fieldPermissions>
+      <editable>true</editable>
+      <field>Knowledge__kav.Content__c</field>
+      <readable>true</readable>
+   </fieldPermissions>
+   <fieldPermissions>
+      <editable>true</editable>
+      <field>Knowledge__kav.DigitalEngagementResponse__c</field>
+      <readable>true</readable>
+   </fieldPermissions>
+   <fieldPermissions>
+      <editable>false</editable>
+      <field>Knowledge__kav.InternalNotes__c</field>
+      <readable>false</readable>
+   </fieldPermissions>
    <flowAccesses>
       <enabled>false</enabled>
       <flow>Company_Flow</flow>
@@ -5549,6 +5656,98 @@
       <apexPage>CreateAccountFromHomePageController</apexPage>
       <enabled>true</enabled>
    </pageAccesses>
+   <pageAccesses>
+      <apexPage>AnswersHome</apexPage>
+      <enabled>true</enabled>
+   </pageAccesses>
+   <pageAccesses>
+      <apexPage>BandwidthExceeded</apexPage>
+      <enabled>true</enabled>
+   </pageAccesses>
+   <pageAccesses>
+      <apexPage>ChangePassword</apexPage>
+      <enabled>true</enabled>
+   </pageAccesses>
+   <pageAccesses>
+      <apexPage>CommunitiesLanding</apexPage>
+      <enabled>true</enabled>
+   </pageAccesses>
+   <pageAccesses>
+      <apexPage>CommunitiesLogin</apexPage>
+      <enabled>true</enabled>
+   </pageAccesses>
+   <pageAccesses>
+      <apexPage>CommunitiesSelfReg</apexPage>
+      <enabled>true</enabled>
+   </pageAccesses>
+   <pageAccesses>
+      <apexPage>CommunitiesSelfRegConfirm</apexPage>
+      <enabled>true</enabled>
+   </pageAccesses>
+   <pageAccesses>
+      <apexPage>CommunitiesTemplate</apexPage>
+      <enabled>true</enabled>
+   </pageAccesses>
+   <pageAccesses>
+      <apexPage>Exception</apexPage>
+      <enabled>true</enabled>
+   </pageAccesses>
+   <pageAccesses>
+      <apexPage>FileNotFound</apexPage>
+      <enabled>true</enabled>
+   </pageAccesses>
+   <pageAccesses>
+      <apexPage>ForgotPassword</apexPage>
+      <enabled>true</enabled>
+   </pageAccesses>
+   <pageAccesses>
+      <apexPage>ForgotPasswordConfirm</apexPage>
+      <enabled>true</enabled>
+   </pageAccesses>
+   <pageAccesses>
+      <apexPage>IdeasHome</apexPage>
+      <enabled>true</enabled>
+   </pageAccesses>
+   <pageAccesses>
+      <apexPage>InMaintenance</apexPage>
+      <enabled>true</enabled>
+   </pageAccesses>
+   <pageAccesses>
+      <apexPage>MicrobatchSelfReg</apexPage>
+      <enabled>true</enabled>
+   </pageAccesses>
+   <pageAccesses>
+      <apexPage>MyProfilePage</apexPage>
+      <enabled>true</enabled>
+   </pageAccesses>
+   <pageAccesses>
+      <apexPage>SiteLogin</apexPage>
+      <enabled>true</enabled>
+   </pageAccesses>
+   <pageAccesses>
+      <apexPage>SiteRegister</apexPage>
+      <enabled>true</enabled>
+   </pageAccesses>
+   <pageAccesses>
+      <apexPage>SiteRegisterConfirm</apexPage>
+      <enabled>true</enabled>
+   </pageAccesses>
+   <pageAccesses>
+      <apexPage>SiteTemplate</apexPage>
+      <enabled>true</enabled>
+   </pageAccesses>
+   <pageAccesses>
+      <apexPage>StdExceptionTemplate</apexPage>
+      <enabled>true</enabled>
+   </pageAccesses>
+   <pageAccesses>
+      <apexPage>Unauthorized</apexPage>
+      <enabled>true</enabled>
+   </pageAccesses>
+   <pageAccesses>
+      <apexPage>UnderConstruction</apexPage>
+      <enabled>true</enabled>
+   </pageAccesses>
    <recordTypeVisibilities>
       <default>false</default>
       <recordType>Account.Current_Account</recordType>
@@ -5703,8 +5902,8 @@
       <visibility>DefaultOn</visibility>
    </tabVisibilities>
    <tabVisibilities>
-      <tab>standard-DelegatedAccount</tab>
-      <visibility>DefaultOff</visibility>
+      <tab>standard-AccountBrand</tab>
+      <visibility>DefaultOn</visibility>
    </tabVisibilities>
    <userLicense>Salesforce</userLicense>
    <userPermissions>
