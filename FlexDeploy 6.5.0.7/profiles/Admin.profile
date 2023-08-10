@@ -5902,7 +5902,7 @@
       <visibility>DefaultOn</visibility>
    </tabVisibilities>
    <tabVisibilities>
-      <tab>standard-AccountBrand</tab>
+      <tab>standard-PromotionSegment</tab>
       <visibility>DefaultOn</visibility>
    </tabVisibilities>
    <userLicense>Salesforce</userLicense>
