@@ -5901,10 +5901,6 @@
       <tab>Knowledge__kav</tab>
       <visibility>DefaultOn</visibility>
    </tabVisibilities>
-   <tabVisibilities>
-      <tab>standard-PromotionSegment</tab>
-      <visibility>DefaultOn</visibility>
-   </tabVisibilities>
    <userLicense>Salesforce</userLicense>
    <userPermissions>
       <enabled>true</enabled>
@@ -6657,5 +6653,45 @@
    <userPermissions>
       <enabled>true</enabled>
       <name>WorkCalibrationUser</name>
+   </userPermissions>
+   <userPermissions>
+      <enabled>true</enabled>
+      <name>ArchiveArticles</name>
+   </userPermissions>
+   <userPermissions>
+      <enabled>true</enabled>
+      <name>EditTranslation</name>
+   </userPermissions>
+   <userPermissions>
+      <enabled>true</enabled>
+      <name>ManagePartners</name>
+   </userPermissions>
+   <userPermissions>
+      <enabled>true</enabled>
+      <name>ManageTerritories</name>
+   </userPermissions>
+   <userPermissions>
+      <enabled>true</enabled>
+      <name>PublishArticles</name>
+   </userPermissions>
+   <userPermissions>
+      <enabled>true</enabled>
+      <name>PublishTranslation</name>
+   </userPermissions>
+   <userPermissions>
+      <enabled>true</enabled>
+      <name>ShareFilesWithNetworks</name>
+   </userPermissions>
+   <userPermissions>
+      <enabled>true</enabled>
+      <name>SubmitForTranslation</name>
+   </userPermissions>
+   <userPermissions>
+      <enabled>true</enabled>
+      <name>ViewArchivedArticles</name>
+   </userPermissions>
+   <userPermissions>
+      <enabled>true</enabled>
+      <name>ViewDraftArticles</name>
    </userPermissions>
 </Profile>
