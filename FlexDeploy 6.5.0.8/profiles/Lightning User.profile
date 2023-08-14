@@ -3818,10 +3818,6 @@
       <visible>false</visible>
    </recordTypeVisibilities>
    <tabVisibilities>
-      <tab>Purchase_Bill__c</tab>
-      <visibility>DefaultOn</visibility>
-   </tabVisibilities>
-   <tabVisibilities>
       <tab>standard-AlternativePaymentMethod</tab>
       <visibility>Hidden</visibility>
    </tabVisibilities>
@@ -4011,6 +4007,10 @@
    </tabVisibilities>
    <tabVisibilities>
       <tab>trlhdtips__Welcome</tab>
+      <visibility>DefaultOn</visibility>
+   </tabVisibilities>
+   <tabVisibilities>
+      <tab>standard-WorkOrder</tab>
       <visibility>DefaultOn</visibility>
    </tabVisibilities>
    <userLicense>Salesforce</userLicense>
