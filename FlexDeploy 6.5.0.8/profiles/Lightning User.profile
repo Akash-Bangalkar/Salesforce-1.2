@@ -2986,14 +2986,6 @@
       <field>WorkStepTemplate.IsActive</field>
       <readable>true</readable>
    </fieldPermissions>
-   <flowAccesses>
-      <enabled>false</enabled>
-      <flow>customer_satisfaction</flow>
-   </flowAccesses>
-   <flowAccesses>
-      <enabled>false</enabled>
-      <flow>net_promoter_score</flow>
-   </flowAccesses>
    <objectPermissions>
       <allowCreate>false</allowCreate>
       <allowDelete>false</allowDelete>
