@@ -219,6 +219,14 @@
       <apexClass>SiteRegisterControllerTest</apexClass>
       <enabled>true</enabled>
    </classAccesses>
+   <classAccesses>
+      <apexClass>ChangePasswordController</apexClass>
+      <enabled>true</enabled>
+   </classAccesses>
+   <classAccesses>
+      <apexClass>ChangePasswordControllerTest</apexClass>
+      <enabled>true</enabled>
+   </classAccesses>
    <custom>false</custom>
    <fieldPermissions>
       <editable>true</editable>
@@ -4042,6 +4050,10 @@
       <enabled>false</enabled>
       <flow>net_promoter_score</flow>
    </flowAccesses>
+   <flowAccesses>
+      <enabled>false</enabled>
+      <flow>FD_Login_Flow</flow>
+   </flowAccesses>
    <layoutAssignments>
       <layout>Account-Account Layout</layout>
    </layoutAssignments>
@@ -4487,6 +4499,13 @@
    <layoutAssignments>
       <layout>WebStoreConfig-Web Store Configuration Layout</layout>
    </layoutAssignments>
+   <loginFlows>
+      <flow>FD_Login_Flow</flow>
+      <flowType>UI</flowType>
+      <friendlyName>FD Login</friendlyName>
+      <uiLoginFlowType>VisualWorkflow</uiLoginFlowType>
+      <useLightningRuntime>false</useLightningRuntime>
+   </loginFlows>
    <objectPermissions>
       <allowCreate>true</allowCreate>
       <allowDelete>true</allowDelete>
@@ -5899,6 +5918,10 @@
    </tabVisibilities>
    <tabVisibilities>
       <tab>Knowledge__kav</tab>
+      <visibility>DefaultOn</visibility>
+   </tabVisibilities>
+   <tabVisibilities>
+      <tab>standard-OperatingHours</tab>
       <visibility>DefaultOn</visibility>
    </tabVisibilities>
    <userLicense>Salesforce</userLicense>
