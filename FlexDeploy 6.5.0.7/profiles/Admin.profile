@@ -5921,7 +5921,7 @@
       <visibility>DefaultOn</visibility>
    </tabVisibilities>
    <tabVisibilities>
-      <tab>standard-CommSubscriptionChannelType</tab>
+      <tab>standard-AccountBrand</tab>
       <visibility>DefaultOn</visibility>
    </tabVisibilities>
    <userLicense>Salesforce</userLicense>
