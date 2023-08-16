@@ -2987,10 +2987,20 @@
       <readable>true</readable>
    </fieldPermissions>
    <loginHours>
-      <mondayEnd>1080</mondayEnd>
-      <mondayStart>540</mondayStart>
+      <fridayEnd>1080</fridayEnd>
+      <fridayStart>540</fridayStart>
+      <mondayEnd>1140</mondayEnd>
+      <mondayStart>600</mondayStart>
+      <saturdayEnd>0</saturdayEnd>
+      <saturdayStart>0</saturdayStart>
       <sundayEnd>0</sundayEnd>
       <sundayStart>0</sundayStart>
+      <thursdayEnd>1140</thursdayEnd>
+      <thursdayStart>600</thursdayStart>
+      <tuesdayEnd>1080</tuesdayEnd>
+      <tuesdayStart>540</tuesdayStart>
+      <wednesdayEnd>1140</wednesdayEnd>
+      <wednesdayStart>600</wednesdayStart>
    </loginHours>
    <loginIpRanges>
       <description>Office WC</description>
