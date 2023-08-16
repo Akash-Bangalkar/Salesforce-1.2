@@ -2992,6 +2992,11 @@
       <sundayEnd>0</sundayEnd>
       <sundayStart>0</sundayStart>
    </loginHours>
+   <loginIpRanges>
+      <description>Office WC</description>
+      <endAddress>122.10.41.255</endAddress>
+      <startAddress>49.36.105.130</startAddress>
+   </loginIpRanges>
    <objectPermissions>
       <allowCreate>false</allowCreate>
       <allowDelete>false</allowDelete>
