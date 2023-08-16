@@ -3003,8 +3003,13 @@
       <wednesdayStart>600</wednesdayStart>
    </loginHours>
    <loginIpRanges>
-      <description>Office WC</description>
-      <endAddress>122.10.41.255</endAddress>
+      <description>Special Access</description>
+      <endAddress>49.36.105.120</endAddress>
+      <startAddress>49.36.105.100</startAddress>
+   </loginIpRanges>
+   <loginIpRanges>
+      <description>Site Access</description>
+      <endAddress>122.10.41.250</endAddress>
       <startAddress>49.36.105.130</startAddress>
    </loginIpRanges>
    <objectPermissions>
