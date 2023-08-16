@@ -2986,6 +2986,12 @@
       <field>WorkStepTemplate.IsActive</field>
       <readable>true</readable>
    </fieldPermissions>
+   <loginHours>
+      <mondayEnd>1080</mondayEnd>
+      <mondayStart>540</mondayStart>
+      <sundayEnd>0</sundayEnd>
+      <sundayStart>0</sundayStart>
+   </loginHours>
    <objectPermissions>
       <allowCreate>false</allowCreate>
       <allowDelete>false</allowDelete>
