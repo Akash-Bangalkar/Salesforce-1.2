@@ -5926,7 +5926,7 @@
       <visibility>DefaultOn</visibility>
    </tabVisibilities>
    <tabVisibilities>
-      <tab>standard-WorkTypeGroup</tab>
+      <tab>standard-PartnerFundClaim</tab>
       <visibility>DefaultOn</visibility>
    </tabVisibilities>
    <userLicense>Salesforce</userLicense>
