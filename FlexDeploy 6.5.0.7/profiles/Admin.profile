@@ -2409,44 +2409,44 @@
       <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>false</editable>
+      <editable>true</editable>
       <field>MessagingEndUser.AccountId</field>
-      <readable>false</readable>
+      <readable>true</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>false</editable>
+      <editable>true</editable>
       <field>MessagingEndUser.ContactId</field>
-      <readable>false</readable>
+      <readable>true</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>false</editable>
+      <editable>true</editable>
       <field>MessagingEndUser.HasInitialResponseSent</field>
-      <readable>false</readable>
+      <readable>true</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>false</editable>
+      <editable>true</editable>
       <field>MessagingEndUser.IsOptedOut</field>
-      <readable>false</readable>
+      <readable>true</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>false</editable>
+      <editable>true</editable>
       <field>MessagingEndUser.LeadId</field>
-      <readable>false</readable>
+      <readable>true</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>false</editable>
+      <editable>true</editable>
       <field>MessagingSession.CaseId</field>
-      <readable>false</readable>
+      <readable>true</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>false</editable>
+      <editable>true</editable>
       <field>MessagingSession.LeadId</field>
-      <readable>false</readable>
+      <readable>true</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>false</editable>
+      <editable>true</editable>
       <field>MessagingSession.OpportunityId</field>
-      <readable>false</readable>
+      <readable>true</readable>
    </fieldPermissions>
    <fieldPermissions>
       <editable>true</editable>
@@ -4037,6 +4037,11 @@
       <editable>false</editable>
       <field>Knowledge__kav.InternalNotes__c</field>
       <readable>false</readable>
+   </fieldPermissions>
+   <fieldPermissions>
+      <editable>true</editable>
+      <field>Gift__c.Price__c</field>
+      <readable>true</readable>
    </fieldPermissions>
    <flowAccesses>
       <enabled>false</enabled>
@@ -5921,7 +5926,7 @@
       <visibility>DefaultOn</visibility>
    </tabVisibilities>
    <tabVisibilities>
-      <tab>standard-AccountBrand</tab>
+      <tab>standard-Location</tab>
       <visibility>DefaultOn</visibility>
    </tabVisibilities>
    <userLicense>Salesforce</userLicense>
