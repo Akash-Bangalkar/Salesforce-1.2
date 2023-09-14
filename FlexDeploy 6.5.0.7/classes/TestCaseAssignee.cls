@@ -42,7 +42,7 @@ private class TestCaseAssignee {
         
         Case csCheck = [SELECT ID, SLAViolation__c, OwnerId FROM Case WHERE SLAViolation__c = 'Yes'];
         ID OwnerId = csCheck.OwnerId;
-        ID expID = '0052t000000xFVhAAM';
+        ID expID = '0052t0000013lQsAAI'; //AB
         System.assertEquals(expID, OwnerId);
     }
     
@@ -64,7 +64,7 @@ private class TestCaseAssignee {
         
         Case csCheck2 = [SELECT ID, SLAViolation__c, OwnerId FROM Case WHERE SLAViolation__c = 'No'];
         ID OwnerId2 = csCheck2.OwnerId;
-        ID expID2 = '0052t000001Ku7YAAS';
+        ID expID2 = '0052t0000014nk1AAA'; //Flex
         System.assertEquals(expID2, OwnerId2);
     }
     
