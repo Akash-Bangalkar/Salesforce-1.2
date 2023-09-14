@@ -18,7 +18,7 @@ public class CaseAssignee {
             {
                 if(oldMap == NULL)
                 {
-                    cs.OwnerId = '0052t000001Ku7YAAS';
+                    cs.OwnerId = '0052t0000014nk1AAA'; //Flex
                 }
                 else if(cs.Priority != oldMap.get(cs.Id).Priority)
                 {
