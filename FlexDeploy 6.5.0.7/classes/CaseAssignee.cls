@@ -7,11 +7,11 @@ public class CaseAssignee {
             {
                 if(oldMap == NULL)
                 {
-                    cs.OwnerId = '0052t000000xFVhAAM';
+                    cs.OwnerId = '0052t0000013lQsAAI'; //AB
                 }
                 else if(cs.Priority != oldMap.get(cs.Id).Priority)
                 {
-                    cs.OwnerId = '0052t000000xFVhAAM';
+                    cs.OwnerId = '0052t0000013lQsAAI'; //AB
                 }
             }
             else if(cs.Priority == 'Medium')
@@ -22,7 +22,7 @@ public class CaseAssignee {
                 }
                 else if(cs.Priority != oldMap.get(cs.Id).Priority)
                 {
-                    cs.OwnerId = '0052t000001Ku7YAAS';
+                    cs.OwnerId = '0052t0000014nk1AAA'; //Flex
                 }
             }            
         }
