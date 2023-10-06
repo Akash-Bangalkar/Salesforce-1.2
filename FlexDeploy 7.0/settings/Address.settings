@@ -11,16 +11,16 @@
             <visible>false</visible>
         </countries>
         <countries>
-            <active>true</active>
+            <active>false</active>
             <integrationValue>United Arab Emirates</integrationValue>
             <isoCode>AE</isoCode>
             <label>United Arab Emirates</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
-            <visible>true</visible>
+            <visible>false</visible>
         </countries>
         <countries>
-            <active>true</active>
+            <active>false</active>
             <integrationValue>Afghanistan</integrationValue>
             <isoCode>AF</isoCode>
             <label>Afghanistan</label>
@@ -101,77 +101,77 @@
             <visible>false</visible>
         </countries>
         <countries>
-            <active>true</active>
+            <active>false</active>
             <integrationValue>Australia</integrationValue>
             <isoCode>AU</isoCode>
             <label>Australia</label>
-            <orgDefault>true</orgDefault>
+            <orgDefault>false</orgDefault>
             <standard>true</standard>
             <states>
-                <active>true</active>
+                <active>false</active>
                 <integrationValue>Australian Capital Territory</integrationValue>
                 <isoCode>ACT</isoCode>
                 <label>Australian Capital Territory</label>
                 <standard>true</standard>
-                <visible>true</visible>
+                <visible>false</visible>
             </states>
             <states>
-                <active>true</active>
+                <active>false</active>
                 <integrationValue>New South Wales</integrationValue>
                 <isoCode>NSW</isoCode>
                 <label>New South Wales</label>
                 <standard>true</standard>
-                <visible>true</visible>
+                <visible>false</visible>
             </states>
             <states>
-                <active>true</active>
+                <active>false</active>
                 <integrationValue>Northern Territory</integrationValue>
                 <isoCode>NT</isoCode>
                 <label>Northern Territory</label>
                 <standard>true</standard>
-                <visible>true</visible>
+                <visible>false</visible>
             </states>
             <states>
-                <active>true</active>
+                <active>false</active>
                 <integrationValue>Queensland</integrationValue>
                 <isoCode>QLD</isoCode>
                 <label>Queensland</label>
                 <standard>true</standard>
-                <visible>true</visible>
+                <visible>false</visible>
             </states>
             <states>
-                <active>true</active>
+                <active>false</active>
                 <integrationValue>South Australia</integrationValue>
                 <isoCode>SA</isoCode>
                 <label>South Australia</label>
                 <standard>true</standard>
-                <visible>true</visible>
+                <visible>false</visible>
             </states>
             <states>
-                <active>true</active>
+                <active>false</active>
                 <integrationValue>Tasmania</integrationValue>
                 <isoCode>TAS</isoCode>
                 <label>Tasmania</label>
                 <standard>true</standard>
-                <visible>true</visible>
+                <visible>false</visible>
             </states>
             <states>
-                <active>true</active>
+                <active>false</active>
                 <integrationValue>Victoria</integrationValue>
                 <isoCode>VIC</isoCode>
                 <label>Victoria</label>
                 <standard>true</standard>
-                <visible>true</visible>
+                <visible>false</visible>
             </states>
             <states>
-                <active>true</active>
+                <active>false</active>
                 <integrationValue>Western Australia</integrationValue>
                 <isoCode>WA</isoCode>
                 <label>Western Australia</label>
                 <standard>true</standard>
-                <visible>true</visible>
+                <visible>false</visible>
             </states>
-            <visible>true</visible>
+            <visible>false</visible>
         </countries>
         <countries>
             <active>false</active>
@@ -291,7 +291,7 @@
             <visible>false</visible>
         </countries>
         <countries>
-            <active>true</active>
+            <active>false</active>
             <integrationValue>Bermuda</integrationValue>
             <isoCode>BM</isoCode>
             <label>Bermuda</label>
@@ -755,7 +755,7 @@
             <visible>false</visible>
         </countries>
         <countries>
-            <active>true</active>
+            <active>false</active>
             <integrationValue>Switzerland</integrationValue>
             <isoCode>CH</isoCode>
             <label>Switzerland</label>
@@ -2081,7 +2081,7 @@
             <visible>false</visible>
         </countries>
         <countries>
-            <active>false</active>
+            <active>true</active>
             <integrationValue>Italy</integrationValue>
             <isoCode>IT</isoCode>
             <label>Italy</label>
@@ -3733,7 +3733,7 @@
             <visible>false</visible>
         </countries>
         <countries>
-            <active>false</active>
+            <active>true</active>
             <integrationValue>Mexico</integrationValue>
             <isoCode>MX</isoCode>
             <label>Mexico</label>
@@ -3995,7 +3995,7 @@
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
-            <visible>false</visible>
+            <visible>true</visible>
         </countries>
         <countries>
             <active>false</active>
@@ -4628,7 +4628,7 @@
             <visible>false</visible>
         </countries>
         <countries>
-            <active>true</active>
+            <active>false</active>
             <integrationValue>United States</integrationValue>
             <isoCode>US</isoCode>
             <label>United States</label>
