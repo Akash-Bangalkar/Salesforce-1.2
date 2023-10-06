@@ -2967,7 +2967,7 @@
                 <standard>true</standard>
                 <visible>false</visible>
             </states>
-            <visible>false</visible>
+            <visible>true</visible>
         </countries>
         <countries>
             <active>false</active>
