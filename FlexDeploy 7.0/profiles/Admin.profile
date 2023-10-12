@@ -87,8 +87,8 @@
    </applicationVisibilities>
    <applicationVisibilities>
       <application>standard__Sales</application>
-      <default>true</default>
-      <visible>true</visible>
+      <default>false</default>
+      <visible>false</visible>
    </applicationVisibilities>
    <applicationVisibilities>
       <application>standard__SalesforceCMS</application>
