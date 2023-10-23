@@ -110,6 +110,30 @@
       <default>false</default>
       <visible>false</visible>
    </applicationVisibilities>
+   <classAccesses>
+      <apexClass>AccountRatingSite</apexClass>
+      <enabled>true</enabled>
+   </classAccesses>
+   <classAccesses>
+      <apexClass>AccountRatingSiteTest</apexClass>
+      <enabled>true</enabled>
+   </classAccesses>
+   <classAccesses>
+      <apexClass>OpportunityNextStep</apexClass>
+      <enabled>true</enabled>
+   </classAccesses>
+   <classAccesses>
+      <apexClass>OpportunityNextStepTest</apexClass>
+      <enabled>true</enabled>
+   </classAccesses>
+   <classAccesses>
+      <apexClass>TemperatureConverter</apexClass>
+      <enabled>true</enabled>
+   </classAccesses>
+   <classAccesses>
+      <apexClass>TestTemperatureConverter</apexClass>
+      <enabled>true</enabled>
+   </classAccesses>
    <custom>false</custom>
    <fieldPermissions>
       <editable>true</editable>
@@ -3746,6 +3770,21 @@
       <field>WorkTypeGroup.IsActive</field>
       <readable>true</readable>
    </fieldPermissions>
+   <fieldPermissions>
+      <editable>false</editable>
+      <field>Account.Account_Status__c</field>
+      <readable>true</readable>
+   </fieldPermissions>
+   <fieldPermissions>
+      <editable>false</editable>
+      <field>AuthorizationFormText.DetailAuthorizationFormText</field>
+      <readable>false</readable>
+   </fieldPermissions>
+   <fieldPermissions>
+      <editable>true</editable>
+      <field>Case.Case_Region__c</field>
+      <readable>true</readable>
+   </fieldPermissions>
    <layoutAssignments>
       <layout>Account-Account Layout</layout>
    </layoutAssignments>
@@ -4129,6 +4168,9 @@
    </layoutAssignments>
    <layoutAssignments>
       <layout>WorkTypeGroupMember-Work Type Group Member Layout</layout>
+   </layoutAssignments>
+   <layoutAssignments>
+      <layout>CartDeliveryGroupMethod-Cart Delivery Group Method Layout</layout>
    </layoutAssignments>
    <objectPermissions>
       <allowCreate>true</allowCreate>
@@ -5138,6 +5180,87 @@
       <object>WorkTypeGroup</object>
       <viewAllRecords>true</viewAllRecords>
    </objectPermissions>
+   <objectPermissions>
+      <allowCreate>true</allowCreate>
+      <allowDelete>true</allowDelete>
+      <allowEdit>true</allowEdit>
+      <allowRead>true</allowRead>
+      <modifyAllRecords>true</modifyAllRecords>
+      <object>BuyerGroup</object>
+      <viewAllRecords>true</viewAllRecords>
+   </objectPermissions>
+   <objectPermissions>
+      <allowCreate>true</allowCreate>
+      <allowDelete>true</allowDelete>
+      <allowEdit>true</allowEdit>
+      <allowRead>true</allowRead>
+      <modifyAllRecords>true</modifyAllRecords>
+      <object>InventoryItemReservation</object>
+      <viewAllRecords>true</viewAllRecords>
+   </objectPermissions>
+   <objectPermissions>
+      <allowCreate>true</allowCreate>
+      <allowDelete>true</allowDelete>
+      <allowEdit>true</allowEdit>
+      <allowRead>true</allowRead>
+      <modifyAllRecords>true</modifyAllRecords>
+      <object>InventoryReservation</object>
+      <viewAllRecords>true</viewAllRecords>
+   </objectPermissions>
+   <objectPermissions>
+      <allowCreate>true</allowCreate>
+      <allowDelete>true</allowDelete>
+      <allowEdit>true</allowEdit>
+      <allowRead>true</allowRead>
+      <modifyAllRecords>true</modifyAllRecords>
+      <object>ProductCatalog</object>
+      <viewAllRecords>true</viewAllRecords>
+   </objectPermissions>
+   <objectPermissions>
+      <allowCreate>true</allowCreate>
+      <allowDelete>true</allowDelete>
+      <allowEdit>true</allowEdit>
+      <allowRead>true</allowRead>
+      <modifyAllRecords>true</modifyAllRecords>
+      <object>ProductCategory</object>
+      <viewAllRecords>true</viewAllRecords>
+   </objectPermissions>
+   <objectPermissions>
+      <allowCreate>true</allowCreate>
+      <allowDelete>true</allowDelete>
+      <allowEdit>true</allowEdit>
+      <allowRead>true</allowRead>
+      <modifyAllRecords>true</modifyAllRecords>
+      <object>ProductCategoryProduct</object>
+      <viewAllRecords>true</viewAllRecords>
+   </objectPermissions>
+   <objectPermissions>
+      <allowCreate>true</allowCreate>
+      <allowDelete>true</allowDelete>
+      <allowEdit>true</allowEdit>
+      <allowRead>true</allowRead>
+      <modifyAllRecords>true</modifyAllRecords>
+      <object>WebStoreBuyerGroup</object>
+      <viewAllRecords>true</viewAllRecords>
+   </objectPermissions>
+   <objectPermissions>
+      <allowCreate>true</allowCreate>
+      <allowDelete>true</allowDelete>
+      <allowEdit>true</allowEdit>
+      <allowRead>true</allowRead>
+      <modifyAllRecords>true</modifyAllRecords>
+      <object>WebStoreCatalog</object>
+      <viewAllRecords>true</viewAllRecords>
+   </objectPermissions>
+   <objectPermissions>
+      <allowCreate>true</allowCreate>
+      <allowDelete>true</allowDelete>
+      <allowEdit>true</allowEdit>
+      <allowRead>true</allowRead>
+      <modifyAllRecords>true</modifyAllRecords>
+      <object>WebStoreInventorySource</object>
+      <viewAllRecords>true</viewAllRecords>
+   </objectPermissions>
    <recordTypeVisibilities>
       <default>false</default>
       <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
@@ -5602,10 +5725,6 @@
    </userPermissions>
    <userPermissions>
       <enabled>true</enabled>
-      <name>ManageConvMiningReports</name>
-   </userPermissions>
-   <userPermissions>
-      <enabled>true</enabled>
       <name>ManageCustomPermissions</name>
    </userPermissions>
    <userPermissions>
@@ -5991,5 +6110,9 @@
    <userPermissions>
       <enabled>true</enabled>
       <name>WorkCalibrationUser</name>
+   </userPermissions>
+   <userPermissions>
+      <enabled>true</enabled>
+      <name>AllowObjectDetectionTraining</name>
    </userPermissions>
 </Profile>
