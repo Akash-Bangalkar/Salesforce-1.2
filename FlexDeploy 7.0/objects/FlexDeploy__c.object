@@ -193,15 +193,26 @@
                <label>Dev User</label>
             </value>
             <value>
-               <fullName>Sales User</fullName>
+               <fullName>Test User 1</fullName>
                <default>false</default>
-               <label>Sales User</label>
+               <label>Test User 1</label>
+            </value>
+            <value>
+               <fullName>Test User 2</fullName>
+               <default>false</default>
+               <label>Test User 2</label>
             </value>
             <value>
                <fullName>MGD User</fullName>
                <default>false</default>
                <isActive>false</isActive>
                <label>MGD User</label>
+            </value>
+            <value>
+               <fullName>Sales User</fullName>
+               <default>false</default>
+               <isActive>false</isActive>
+               <label>Sales User</label>
             </value>
          </valueSetDefinition>
       </valueSet>
