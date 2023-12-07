@@ -7,10 +7,10 @@ private class OpportunityNextStepTest {
         opp.Name = 'Test Opp';
         opp.CloseDate = date.today() + 10;
         opp.StageName = 'Prospecting';
-        INSERT opp;
+       	INSERT opp;
     }
     
-    @isTest
+	@isTest
     private static void firstMethod()
     {
         Opportunity opp = [SELECT ID, StageName, NextStep FROM Opportunity];

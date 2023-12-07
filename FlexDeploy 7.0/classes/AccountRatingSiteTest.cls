@@ -1,11 +1,12 @@
 @isTest
 private class AccountRatingSiteTest {
-    @isTest
+	@isTest
     private static void firstMethod()
     {
         Account acc = New Account();
         acc.Name = 'Test';
         acc.Rating = 'Hot';
+       // acc.External_ID__c = 'T-1';
         
         Test.startTest();
         INSERT acc;
@@ -21,6 +22,7 @@ private class AccountRatingSiteTest {
         Account acc = New Account();
         acc.Name = 'Test';
         acc.Rating = 'Warm';
+      //  acc.External_ID__c = 'T-1';
         
         Test.startTest();
         INSERT acc;
@@ -36,6 +38,7 @@ private class AccountRatingSiteTest {
         Account acc = New Account();
         acc.Name = 'Test';
         acc.Rating = 'Cold';
+      //  acc.External_ID__c = 'T-1';
         
         Test.startTest();
         INSERT acc;
