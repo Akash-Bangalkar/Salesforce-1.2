@@ -1,6 +1,12 @@
 public class CircularDependencyClassB {
+    private static Boolean isMethodACalled = false;
+
     public static void methodB() {
-        CircularDependencyClassC.methodC();
-        System.debug('Method B');
+        if (!isMethodACalled) {
+            isMethodACalled = true;
+            CircularDependencyClassC.methodC();
+            System.debug('Method B');
+            isMethodACalled = false;
+        }
     }
 }
