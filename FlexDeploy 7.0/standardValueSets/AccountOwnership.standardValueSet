@@ -12,11 +12,6 @@
         <label>Private</label>
     </standardValue>
     <standardValue>
-        <fullName>Subsidiary</fullName>
-        <default>false</default>
-        <label>Subsidiary</label>
-    </standardValue>
-    <standardValue>
         <fullName>Other</fullName>
         <default>false</default>
         <label>Other</label>
