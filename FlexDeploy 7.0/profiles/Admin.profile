@@ -151,6 +151,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>FlexDeploy7</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>MetadataListController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
