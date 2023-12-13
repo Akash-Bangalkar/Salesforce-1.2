@@ -10,11 +10,19 @@
     <tabs>standard-CmsChannel</tabs>
     <tabs>standard-CmsWorkspaces</tabs>
     <tabs>standard-CmsExperiences</tabs>
-    <tabs>Asset__c</tabs>
+    <tabs>Gift__c</tabs>
+    <tabs>Company__c</tabs>
+    <tabs>Book__c</tabs>
     <uiType>Lightning</uiType>
     <workspaceConfig>
         <mappings>
-            <tab>Asset__c</tab>
+            <tab>Book__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Company__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Gift__c</tab>
         </mappings>
         <mappings>
             <tab>standard-CmsAuthorHome</tab>

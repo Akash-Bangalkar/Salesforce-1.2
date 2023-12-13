@@ -196,6 +196,26 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
+    <businessProcesses>
+        <fullName>Case Business Process</fullName>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Working</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
@@ -219,52 +239,6 @@
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Case_Region__c</fullName>
-        <externalId>false</externalId>
-        <label>Case Region</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Asia</fullName>
-                    <default>false</default>
-                    <label>Asia</label>
-                </value>
-                <value>
-                    <fullName>Africa</fullName>
-                    <default>false</default>
-                    <label>Africa</label>
-                </value>
-                <value>
-                    <fullName>Europe</fullName>
-                    <default>false</default>
-                    <label>Europe</label>
-                </value>
-                <value>
-                    <fullName>Australia</fullName>
-                    <default>false</default>
-                    <label>Australia</label>
-                </value>
-                <value>
-                    <fullName>North America</fullName>
-                    <default>false</default>
-                    <label>North America</label>
-                </value>
-                <value>
-                    <fullName>South America</fullName>
-                    <default>false</default>
-                    <label>South America</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
     </fields>
     <fields>
         <fullName>ClosedDate</fullName>
@@ -592,6 +566,15 @@
         <label>All Open Cases</label>
     </listViews>
     <listViews>
+        <fullName>Lead_Q_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Lead Qe</label>
+        <queue>Lead_Q</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
         <fullName>MyCases</fullName>
         <filterScope>Mine</filterScope>
         <label>My Cases</label>
@@ -607,10 +590,19 @@
         <label>My Open Cases</label>
     </listViews>
     <listViews>
-        <fullName>Test_10693_Case</fullName>
+        <fullName>Service_Case_Case</fullName>
         <filterScope>Queue</filterScope>
-        <label>Test 10693</label>
-        <queue>Test_10693</queue>
+        <label>Service Case</label>
+        <queue>Service_Case</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>TestCaseAssignee_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>TestCaseAssignee</label>
+        <queue>TestCaseAssignee</queue>
         <sharedTo>
             <allInternalUsers></allInternalUsers>
         </sharedTo>
@@ -637,6 +629,20 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWriteTransfer</sharingModel>
+    <validationRules>
+        <fullName>Case_Validation_Rule_1</fullName>
+        <active>true</active>
+        <errorConditionFormula>Subject == NULL</errorConditionFormula>
+        <errorDisplayField>Subject</errorDisplayField>
+        <errorMessage>Subject is Required</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Case_Validation_Rule_2</fullName>
+        <active>true</active>
+        <errorConditionFormula>SuppliedEmail == NULL</errorConditionFormula>
+        <errorDisplayField>SuppliedEmail</errorDisplayField>
+        <errorMessage>Web Email is Required</errorMessage>
+    </validationRules>
     <webLinks>
         <fullName>UpsellCrosssellOpportunity</fullName>
         <availability>online</availability>

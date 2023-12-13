@@ -21,4 +21,9 @@
         <default>false</default>
         <label>Trimester</label>
     </standardValue>
+    <standardValue>
+        <fullName>TRIO</fullName>
+        <default>false</default>
+        <label>TRIO</label>
+    </standardValue>
 </StandardValueSet>

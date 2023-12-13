@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Book</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Books</value>
+    </caseValues>
+    <fields>
+        <label><!-- Book ID --></label>
+        <name>Book_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Add Review Here (4 to 5 Lines) --></help>
+        <label><!-- Book Review --></label>
+        <name>Book_Review__c</name>
+    </fields>
+    <fields>
+        <label><!-- Book Type Code --></label>
+        <name>Book_Type_Code__c</name>
+        <picklistValues>
+            <masterLabel>DS</masterLabel>
+            <translation><!-- DS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ED</masterLabel>
+            <translation><!-- ED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GK</masterLabel>
+            <translation><!-- GK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MV</masterLabel>
+            <translation><!-- MV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RS</masterLabel>
+            <translation><!-- RS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>Company__c</name>
+        <relationshipLabel><!-- Books --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sr No --></label>
+        <name>Sr_No__c</name>
+    </fields>
+    <layouts>
+        <layout>Book Layout</layout>
+        <sections>
+            <label><!-- Book Section --></label>
+            <section>Book Section</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Review Section --></label>
+            <section>Review Section</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- International --></label>
+        <name>International</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- National --></label>
+        <name>National</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

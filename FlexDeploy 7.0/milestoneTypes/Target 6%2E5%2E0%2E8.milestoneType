@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MilestoneType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Complete all the pending task for this sprint</description>
+    <recurrenceType>recursIndependently</recurrenceType>
+</MilestoneType>

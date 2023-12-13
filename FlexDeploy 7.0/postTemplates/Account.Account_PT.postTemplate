@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PostTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <default>false</default>
+    <description>Post Templates Testing</description>
+    <fields>Name</fields>
+    <fields>AccountNumber</fields>
+    <fields>Site</fields>
+    <fields>External_ID__c</fields>
+    <label>Account PT</label>
+</PostTemplate>

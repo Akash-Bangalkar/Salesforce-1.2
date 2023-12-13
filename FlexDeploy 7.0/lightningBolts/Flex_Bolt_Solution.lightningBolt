@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningBolt xmlns="http://soap.sforce.com/2006/04/metadata">
+    <category>GeneralBusiness</category>
+    <lightningBoltFeatures>
+        <description>Testing Description</description>
+        <order>1</order>
+        <title>Salesforce Consultant</title>
+    </lightningBoltFeatures>
+    <lightningBoltFeatures>
+        <description>Testing Description - 2</description>
+        <order>2</order>
+        <title>Salesforce Developer</title>
+    </lightningBoltFeatures>
+    <lightningBoltImages>
+        <image>gear</image>
+        <order>1</order>
+    </lightningBoltImages>
+    <lightningBoltImages>
+        <image>thumbnail</image>
+        <order>2</order>
+    </lightningBoltImages>
+    <lightningBoltItems>
+        <name>FDCompanyAuto</name>
+        <type>FlowCategory</type>
+    </lightningBoltItems>
+    <masterLabel>Flex Bolt Solution</masterLabel>
+    <publisher>Salesforce</publisher>
+    <summary>Testing Lightning Bolt Solution - FlexDeploy</summary>
+</LightningBolt>

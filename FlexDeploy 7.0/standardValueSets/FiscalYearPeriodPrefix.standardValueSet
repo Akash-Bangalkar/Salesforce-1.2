@@ -21,4 +21,9 @@
         <default>false</default>
         <label>Month</label>
     </standardValue>
+    <standardValue>
+        <fullName>Quarter</fullName>
+        <default>false</default>
+        <label>Quarter</label>
+    </standardValue>
 </StandardValueSet>
