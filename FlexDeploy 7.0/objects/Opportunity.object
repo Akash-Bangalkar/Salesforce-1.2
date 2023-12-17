@@ -184,15 +184,6 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Default__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Default</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>DeliveryInstallationStatus__c</fullName>
         <externalId>false</externalId>
         <label>Delivery/Installation Status</label>
@@ -235,10 +226,6 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
-        <fullName>IsExcludedFromTerritory2Filter</fullName>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
         <fullName>IsPrivate</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
@@ -266,17 +253,7 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
-        <fullName>New_Opportunity__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>New</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>NextStep</fullName>
-        <inlineHelpText>Add Next Stage Information Here</inlineHelpText>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
     </fields>
@@ -298,12 +275,6 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>PartnerAccountId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>Pricebook2Id</fullName>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
@@ -318,11 +289,6 @@
         <trackFeedHistory>true</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>Territory2Id</fullName>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>TotalOpportunityQuantity</fullName>
@@ -459,19 +425,6 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
-    <validationRules>
-        <fullName>Check_Opp_Name</fullName>
-        <active>true</active>
-        <errorConditionFormula>ISNUMBER(Name)</errorConditionFormula>
-        <errorMessage>Numbers Not Allowed</errorMessage>
-    </validationRules>
-    <validationRules>
-        <fullName>Opportunity_Stage</fullName>
-        <active>true</active>
-        <description>If Stage is Closed Lost, Then Error Will Occurred.</description>
-        <errorConditionFormula>ISPICKVAL(StageName, &apos;Closed Lost&apos;)</errorConditionFormula>
-        <errorMessage>Opportunity Closed Lost</errorMessage>
-    </validationRules>
     <webLinks>
         <fullName>DeliveryStatus</fullName>
         <availability>online</availability>

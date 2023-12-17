@@ -9,7 +9,4 @@
     <tabs>standard-Workspace</tabs>
     <tabs>standard-ContentSearch</tabs>
     <tabs>standard-ContentSubscriptions</tabs>
-    <tabs>Gift__c</tabs>
-    <tabs>Company__c</tabs>
-    <tabs>Book__c</tabs>
 </CustomApplication>

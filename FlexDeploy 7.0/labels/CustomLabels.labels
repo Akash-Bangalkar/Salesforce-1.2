@@ -1,28 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
-    <labels>
-        <fullName>CL_86</fullName>
-        <categories>State</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>CL - 86</shortDescription>
-        <value>MH
-TN
-DL
-GJ
-KN
-MP
-UP</value>
-    </labels>
-    <labels>
-        <fullName>Country_FD</fullName>
-        <categories>Country</categories>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>Country FD</shortDescription>
-        <value>IND
-USA
-NZ
-UK</value>
-    </labels>
-</CustomLabels>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata"/>
+

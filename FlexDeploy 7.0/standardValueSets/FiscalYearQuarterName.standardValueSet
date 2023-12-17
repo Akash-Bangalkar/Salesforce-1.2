@@ -12,9 +12,9 @@
         <label>Summer</label>
     </standardValue>
     <standardValue>
-        <fullName>RainFall</fullName>
+        <fullName>Fall</fullName>
         <default>false</default>
-        <label>Rain Fall</label>
+        <label>Fall</label>
     </standardValue>
     <standardValue>
         <fullName>Winter</fullName>

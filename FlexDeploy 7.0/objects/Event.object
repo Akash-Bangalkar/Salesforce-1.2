@@ -200,10 +200,6 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>IsVisibleInSelfService</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
         <fullName>Location</fullName>
         <trackHistory>false</trackHistory>
     </fields>

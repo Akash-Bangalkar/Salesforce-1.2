@@ -8,21 +8,9 @@
     <navType>Console</navType>
     <tabs>standard-Product2</tabs>
     <tabs>standard-Pricebook2</tabs>
-    <tabs>Gift__c</tabs>
-    <tabs>Company__c</tabs>
-    <tabs>Book__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>RevenueCloudConsole_UtilityBar</utilityBar>
     <workspaceConfig>
-        <mappings>
-            <tab>Book__c</tab>
-        </mappings>
-        <mappings>
-            <tab>Company__c</tab>
-        </mappings>
-        <mappings>
-            <tab>Gift__c</tab>
-        </mappings>
         <mappings>
             <tab>standard-Pricebook2</tab>
         </mappings>

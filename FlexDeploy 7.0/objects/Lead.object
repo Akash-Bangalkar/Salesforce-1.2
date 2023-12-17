@@ -375,11 +375,6 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>PartnerAccountId</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>Phone</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -476,15 +471,6 @@
             <value>closed</value>
         </filters>
         <label>All Open Leads</label>
-    </listViews>
-    <listViews>
-        <fullName>Lead_Q_Lead</fullName>
-        <filterScope>Queue</filterScope>
-        <label>Lead Qe</label>
-        <queue>Lead_Q</queue>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
     </listViews>
     <listViews>
         <fullName>MyUnreadLeads</fullName>

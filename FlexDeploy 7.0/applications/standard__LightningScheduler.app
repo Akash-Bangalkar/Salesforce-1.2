@@ -13,8 +13,5 @@
     <tabs>standard-WorkType</tabs>
     <tabs>standard-OperatingHours</tabs>
     <tabs>standard-ServiceAppointment</tabs>
-    <tabs>Gift__c</tabs>
-    <tabs>Company__c</tabs>
-    <tabs>Book__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

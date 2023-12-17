@@ -180,20 +180,7 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
-    <tabs>standard-Knowledge</tabs>
-    <tabs>Gift__c</tabs>
-    <tabs>Company__c</tabs>
-    <tabs>Book__c</tabs>
     <workspaceConfig>
-        <mappings>
-            <tab>Book__c</tab>
-        </mappings>
-        <mappings>
-            <tab>Company__c</tab>
-        </mappings>
-        <mappings>
-            <tab>Gift__c</tab>
-        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>
@@ -204,9 +191,6 @@
         <mappings>
             <fieldName>AccountId</fieldName>
             <tab>standard-Contact</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-Knowledge</tab>
         </mappings>
         <mappings>
             <tab>standard-Lead</tab>

@@ -6,7 +6,4 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <tabs>standard-AppLauncher</tabs>
-    <tabs>Gift__c</tabs>
-    <tabs>Company__c</tabs>
-    <tabs>Book__c</tabs>
 </CustomApplication>

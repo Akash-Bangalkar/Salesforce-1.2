@@ -32,11 +32,6 @@
         <label>Task</label>
     </standardValue>
     <standardValue>
-        <fullName>Knowledge</fullName>
-        <default>false</default>
-        <label>Knowledge</label>
-    </standardValue>
-    <standardValue>
         <fullName>Messaging</fullName>
         <default>false</default>
         <label>Messaging</label>

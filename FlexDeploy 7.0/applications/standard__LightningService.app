@@ -17,25 +17,9 @@
     <tabs>standard-Incident</tabs>
     <tabs>standard-Problem</tabs>
     <tabs>standard-ChangeRequest</tabs>
-    <tabs>Gift__c</tabs>
-    <tabs>Company__c</tabs>
-    <tabs>Book__c</tabs>
-    <tabs>Knowledge__kav</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningService_UtilityBar</utilityBar>
     <workspaceConfig>
-        <mappings>
-            <tab>Book__c</tab>
-        </mappings>
-        <mappings>
-            <tab>Company__c</tab>
-        </mappings>
-        <mappings>
-            <tab>Gift__c</tab>
-        </mappings>
-        <mappings>
-            <tab>Knowledge__kav</tab>
-        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>
