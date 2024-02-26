@@ -1,7 +1,7 @@
 trigger OppTrigger on Opportunity (before update) {
-	if(trigger.isBefore)
+	if(trigger.isBefore) //ISBEFORE
     {
-        if(trigger.isUpdate)
+        if(trigger.isUpdate) //ISUPDATE
         {
             OpportunityNextStep.updateNextStep(trigger.new, trigger.oldMap);
         }

@@ -89,10 +89,6 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>flex</name>
-        <type>ConnectedApp</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>Dataloader_Bulk</name>
         <type>ConnectedApp</type>
     </appMenuItems>
@@ -125,7 +121,27 @@
         <type>ConnectedApp</type>
     </appMenuItems>
     <appMenuItems>
-        <name>OAUTH</name>
+        <name>FlexDeploy</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Native_App</name>
         <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>DEVHUB_bqo761zqmbbqkeixvjuh</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>DevOps_Center</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Salesforce_FD_Setup</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__Commerce</name>
+        <type>CustomApplication</type>
     </appMenuItems>
 </AppMenu>
